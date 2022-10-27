@@ -12,3 +12,8 @@ StraPy is currently developing macroscopic modelling assignment (User Equilibriu
 StraPy short-term goals is supporting classical transportation modellling techniques and method described in Ortúzar & Willumsen's Modelling Transport. <br>
 ### In the distant future
 Although the current goals of StraPy are focusing on macroscopic aspect of transportation modelling, it is also expected to include functionalities to support on any other branches such as microscopic transportation modelling, behavioral model (discrete choice modelling), Agent-based Modelling (such as MATSim), dynamic modelling, etc.
+
+## References
+1. Aulia Rahman's working paper [working paper]([https://www.google.com](https://drive.google.com/file/d/1EsmRboHHBDYEzDBGGMN8GfWzcz8Zja3M/view?usp=sharing) "Working Paper") (Indonesian Language)
+2. Sheffi, Y. 1984. Urban Transportation Networks.
+3. Ortúzar, J. de D., Willumsen, L.G., Consultancy, L.W., 2011. Modelling Transport.
