@@ -1,2 +1,2 @@
 # StraPy
-Sustainable Transportation Planning with Python
+Sustainable Transportation Planning with Python.
