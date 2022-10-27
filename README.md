@@ -3,7 +3,7 @@ Sustainable Transportation Planning with Python.
 
 ## Purpose
 StraPy is aiming to create a free open access transportation simulation software for all, increasing reproducibility, transparency, and public accessibility while decreasing cost and subjective decision making in the transportation modelling domain.<br>
-StraPy is also intended as an environment and framework for strudent, researcher, public institution or any other interested parties to test all of their transportation modelling related problem for the advancement of the discipline itself.
+StraPy is also intended as an environment and framework for student, researcher, public institution or any other interested parties to test all of their transportation modelling related problem for the advancement of the discipline itself.
 
 ## Current and Future Project Directions
 ### Now
