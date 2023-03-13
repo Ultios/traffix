@@ -1,5 +1,6 @@
 # StraPy
-Sustainable Transportation Planning with Python.
+Sustainable Transportation Planning with Python. <br>
+It will soon be renamed into TraffiX, as the name "StraPy" clashed with other package name in PyPi.
 
 ## Purpose
 StraPy is aiming to create a free open access transportation simulation software for all, increasing reproducibility, transparency, and public accessibility while decreasing cost and subjective decision making in the transportation modelling domain.<br>

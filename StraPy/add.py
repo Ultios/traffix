@@ -76,6 +76,7 @@ def add_edge_width(G, width_min=3.5):
     #Change lanes column into numeric
     edges["width"]=pd.to_numeric(edges["width"])
     edges["width"] = width.values
+    display(edges["width"])
     nx.set_edge_attributes(G, values=edges["width"], name="width")
     
     return G
@@ -129,3 +130,18 @@ def add_edge_capacity(G, base_capacity=None, fallback=1650):
     nx.set_edge_attributes(G, values=edges["capacity"], name="capacity")
     
     return G
+
+def flatten_osmid(G):
+    df = ox.graph_to_gdfs(ox.project_graph(G), nodes=False)
+    #Flatten the osmid, can happen during simplification.
+    df['osmid'] = df['osmid'].map(lambda x: x[0] if isinstance(x, list) else x).values
+    df["highway"] = df["highway"].map(lambda x: x[0] if isinstance(x, list) else x).values
+    nx.set_edge_attributes(G, df['osmid'], name='osmid')
+    nx.set_edge_attributes(G, df["highway"], name="highway")
+    return G  
+
+def add_edge_initial_travel_time(G):
+    df = nx.to_pandas_edgelist(G, edge_key='ekey').set_index(["source","target","ekey"])
+    df['initial_travel_time'] = df['travel_time'].values
+    nx.set_edge_attributes(G, df['initial_travel_time'], name='initial_travel_time')
+    return G  
