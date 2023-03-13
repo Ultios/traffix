@@ -1,4 +1,4 @@
-"""Expose most common parts of public API directly in `StraPy.` namespace."""
+"""Expose most common parts of public API directly in `TraffiX.` namespace."""
 
 from .add import add_edge_lanes
 from .add import add_edge_width
