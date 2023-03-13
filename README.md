@@ -1,5 +1,5 @@
 # StraPy
-Sustainable Transportation Planning with Python.
+Sustainable Transportation Planning with Python. <br>
 It will soon be renamed into TraffiX, as the name "StraPy" clashed with other package name in PyPi.
 
 ## Purpose
