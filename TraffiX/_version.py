@@ -1,3 +1,3 @@
 """TraffiX package version."""
 
-__version__ = "0.1.7-Alpha"
+__version__ = "0.1.8-Alpha"
