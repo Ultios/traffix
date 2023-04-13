@@ -2,18 +2,15 @@ import os
 
 from setuptools import setup
 
-######################################################################################################
-################ You May Remove All the Comments Once You Finish Modifying the Script ################
-######################################################################################################
 
 setup(
     name="TraffiX", 
-    version = "0.1.0-alpha",
+    version = "0.1.2-alpha",
     description = "A package for macroscopic transportation assignment.",
     package_dir = {"":"TraffiX"},
     author = "Aulia Rahman",
     author_email = "rahmancs02@gmail.com",
-    long_description = open("README.md").read() + "\n\n" + open("CHANGELOG.md").read(),
+    long_description = open("README.md").read(),
     long_description_content_type = "text/markdown",
     url="https://github.com/Ultios/StraPy",
     include_package_data=True,
@@ -30,6 +27,7 @@ setup(
         "Operating System :: OS Independent",
     ],
     install_requires = [
+        "python >=3.6",
         "osmnx ~= 1.3.0",
         "pandas ~= 1.2.4",
     ],
