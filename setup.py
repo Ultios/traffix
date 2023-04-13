@@ -4,8 +4,8 @@ from setuptools import setup
 
 
 setup(
-    name="TraffiX", 
-    version = "0.1.4-alpha",
+    name="traffix", 
+    version = "0.1.5-alpha",
     description = "A package for macroscopic transportation assignment.",
     package_dir = {"":"traffix"},
     author = "Aulia Rahman",
