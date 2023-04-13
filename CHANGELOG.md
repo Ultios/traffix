@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## Version 0.1.5-alpha 04/13/2023
+## Version 0.1.7-alpha 04/13/2023
 This the first release of this package.
 
 User Equilibrium method
