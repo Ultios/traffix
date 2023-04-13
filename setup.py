@@ -5,14 +5,14 @@ from setuptools import setup
 
 setup(
     name="TraffiX", 
-    version = "0.1.2-alpha",
+    version = "0.1.4-alpha",
     description = "A package for macroscopic transportation assignment.",
-    package_dir = {"":"TraffiX"},
+    package_dir = {"":"traffix"},
     author = "Aulia Rahman",
     author_email = "rahmancs02@gmail.com",
     long_description = open("README.md").read(),
     long_description_content_type = "text/markdown",
-    url="https://github.com/Ultios/StraPy",
+    url="https://github.com/Ultios/traffix",
     include_package_data=True,
     classifiers  = [
         "Development Status :: 3 - Alpha",

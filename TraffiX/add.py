@@ -1,3 +1,6 @@
+import osmnx as ox
+import pandas as pd
+import networkx as nx
 
 
 
@@ -76,7 +79,6 @@ def add_edge_width(G, width_min=3.5):
     #Change lanes column into numeric
     edges["width"]=pd.to_numeric(edges["width"])
     edges["width"] = width.values
-    display(edges["width"])
     nx.set_edge_attributes(G, values=edges["width"], name="width")
     
     return G

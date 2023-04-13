@@ -1,3 +1,6 @@
+import networkx as nx
+import numpy as np
+
 def update_travel_time_lpr(G, alpha=0.15, beta=4):
     df = nx.to_pandas_edgelist(G, edge_key='ekey').set_index(["source","target","ekey"])
     df['travel_time'] = df.apply(lambda x: lpr(x, alpha, beta), axis=1).values
