@@ -5,7 +5,7 @@ from setuptools import setup
 
 setup(
     name="traffix", 
-    version = "0.1.12-alpha",
+    version = "0.1.12",
     description = "A package for macroscopic transportation assignment.",
     package_dir = {"":"traffix"},
     author = "Aulia Rahman",

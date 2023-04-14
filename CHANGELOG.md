@@ -1,7 +1,6 @@
 # CHANGELOG
 
-## Version 0.1.12-alpha 04/14/2023
-This the first release of this package.
+## Version 0.1.12 04/15/2023
 
 User Equilibrium method
 Four Step model compatibility
