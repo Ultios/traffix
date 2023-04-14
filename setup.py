@@ -5,7 +5,7 @@ from setuptools import setup
 
 setup(
     name="traffix", 
-    version = "0.1.8-alpha",
+    version = "0.1.12-alpha",
     description = "A package for macroscopic transportation assignment.",
     package_dir = {"":"traffix"},
     author = "Aulia Rahman",
@@ -27,9 +27,17 @@ setup(
         "Operating System :: OS Independent",
     ],
     install_requires = [
-        "python >=3.6",
-        "osmnx ~= 1.3.0",
-        "pandas ~= 1.2.4",
+        "osmnx >=1.3.0",
+        "pandas >=1.5",
+        "geopandas>=0.12",
+        "matplotlib>=3.5",
+        "networkx>=2.8",
+        "numpy>=1.23",
+        "pandas>=1.5",
+        "pyproj>=3.4",
+        "requests>=2.28",
+        "Shapely>=2.0"
     ],
+    
     keywords = ["Traffic Assignment", "Transportation Planning", "Macroscopic Transportation Planning"],
 )
