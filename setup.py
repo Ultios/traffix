@@ -5,7 +5,7 @@ from setuptools import setup
 
 setup(
     name="traffix", 
-    version = "0.1.12",
+    version = "0.1.13",
     description = "A package for macroscopic transportation assignment.",
     package_dir = {"":"traffix"},
     author = "Aulia Rahman",
@@ -36,7 +36,8 @@ setup(
         "pandas>=1.5",
         "pyproj>=3.4",
         "requests>=2.28",
-        "Shapely>=2.0"
+        "Shapely>=2.0",
+        "openpyxl"
     ],
     
     keywords = ["Traffic Assignment", "Transportation Planning", "Macroscopic Transportation Planning"],

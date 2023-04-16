@@ -250,7 +250,7 @@ def CCA(G, nodes_OD, flow, number_of_iteration=10000, alpha=0.15, beta=4):
     
     # Initialize flow from OD Matrices, do shortest path
     # and Assign flow to all links.
-    G = OD_shortest_path(G, nodes, flow, flow_type='flow')
+    G = OD_shortest_path(G, nodes_OD, flow, flow_type='flow')
     
     condition = True
     n = 0
@@ -261,7 +261,7 @@ def CCA(G, nodes_OD, flow, number_of_iteration=10000, alpha=0.15, beta=4):
 
         # Initialize flow from OD Matrices, do shortest path
         # and calculate auxiliary flow.
-        G = OD_shortest_path(G, nodes, flow, flow_type='auxflow')
+        G = OD_shortest_path(G, nodes_OD, flow, flow_type='auxflow')
 
         # line search using bisection method
         alpha = bisection(G, alpha=alpha, beta=beta)
