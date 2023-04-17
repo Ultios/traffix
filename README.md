@@ -6,6 +6,11 @@ Formerly known as "StraPy", the name clashed with other package name in PyPi.
 TraffiX is aiming to create a free open access transportation simulation software for all, increasing reproducibility, transparency, and public accessibility while decreasing cost and subjective decision making in the transportation modelling domain.<br>
 TraffiX is also intended as an environment and framework for student, researcher, public institution or any other interested parties to test all of their transportation modelling related problem.
 
+## Getting Started
+*How do I install TraffiX?* Follow the [installation notes](https://osmnx.readthedocs.io/en/stable/#installation) in TraffiX-tutorial Readme file.
+
+*How do I use TraffiX?* Check out the usage examples/tutorials in the [tutorial](https://github.com/Ultios/TraffiX-Tutorial) repo.
+
 ## Current and Future Project Directions
 ### Now
 TraffiX is currently developing macroscopic modelling assignment (User Equilibrium) described in Yosef Sheffi's Urban Transportation Networks and Maximum Entropy Matrix Estimation commonly used as the basic macroscopic transportation model in the four step transport plannning model. <br>
