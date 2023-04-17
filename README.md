@@ -13,7 +13,7 @@ TraffiX is also intended as an environment and framework for student, researcher
 
 ## Current and Future Project Directions
 ### Now
-TraffiX is currently developing macroscopic modelling assignment (User Equilibrium) described in Yosef Sheffi's Urban Transportation Networks and Maximum Entropy Matrix Estimation commonly used as the basic macroscopic transportation model in the four step transport plannning model. <br>
+TraffiX is currently developing macroscopic modelling assignment (User Equilibrium) described in Yosef Sheffi's Urban Transportation Networks commonly used as the basic macroscopic transportation model in the four step transport plannning model. <br>
 ### In the near future
 TraffiX short-term goals is supporting classical transportation modellling techniques and method described in Ortúzar & Willumsen's Modelling Transport and Yosef Sheffi's Urban Transportation Network <br>
 
