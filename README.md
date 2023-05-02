@@ -7,7 +7,7 @@ TraffiX is aiming to create a free open access transportation simulation softwar
 TraffiX is also intended as an environment and framework for student, researcher, public institution or any other interested parties to test all of their transportation modelling related problem.
 
 ## Getting Started
-*How do I install TraffiX?* Follow the [installation notes](https://osmnx.readthedocs.io/en/stable/#installation) in TraffiX-tutorial Readme file.
+*How do I install TraffiX?* Follow the [installation notes](https://github.com/Ultios/TraffiX-Tutorial) in TraffiX-tutorial Readme file.
 
 *How do I use TraffiX?* Check out the usage examples/tutorials in the [tutorial](https://github.com/Ultios/TraffiX-Tutorial) repo.
 
